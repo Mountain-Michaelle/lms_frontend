@@ -21,7 +21,7 @@ const Home = () => {
                     <Card.Body>
                         <Card.Title className="text-info">COS421</Card.Title>
                         <Card.Text className="text-dark">
-                        Some quick example text to build on the card title and make up the bulk of
+                        Some quick example text to build on the card title and make up the bulk of yes its just for testiing
                         the card's content.
                         </Card.Text>
                         <Link to="/detail/:course_id/"><Button variant="success">Course Details</Button></Link>
