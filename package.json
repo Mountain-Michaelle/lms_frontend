@@ -1,3 +1,4 @@
+
 {
   "name": "lms_frontend",
   "version": "0.1.0",
@@ -30,6 +31,12 @@
       "react-app/jest"
     ]
   },
+
+  "engines" : { 
+    "npm" : ">=8.0.0 <= 9.6.6",
+    "node" : ">=16.0.0 <= 18.13.0"
+  },
+
   "browserslist": {
     "production": [
       ">0.2%",
