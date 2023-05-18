@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import CourseDetail from './Components/CourseDetail';
 import Slider from './Slider/Slider';
 import CssTutorial from './css/CSS_Tutorial/CssTutorial';
+import CourseDetailVideo from './Components/CourseDetailVideo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/css-tutorial" element={<CssTutorial />} /> 
         <Route path="/about" element={<About />} />
         <Route path="/detail/:course_id" element={<CourseDetail />} />
+        <Route path="/detail/:course_id/video" element={<CourseDetailVideo />} />
       </Routes>
     </div>
   );
