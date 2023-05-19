@@ -10,7 +10,7 @@ import Slider from '../Slider/Slider';
 const Home = () => {
     return(
         <div>
-            <Slider />
+            {/* <Slider /> */}
 
         <div className='container mt-4' >
             <div className="row ">
